@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rubik's Cubes</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <div id="header">
+   <span><a href="#center">Skip to Content</a></span>
+   <h1>Rubik's Cubes</h1>
+</div>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Shop.html">Shopping</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
+      <li><a href="Forms.html">Forms</a></li>
+      <li><a href="About.html">Contact us</a></li>
+  </ul>
+  </div>  
+  <div id="sidebar">
+  </div>
+  <div id="center">
+    <h2>Your Information</h2>
+    <p>Name: <input type="text"><br>
+      E-mail: <input type="text" name="email" id"email"> <br>
+      Choose the cubes you use<br>
+      <input type="checkbox" name="2x2x2" id="2x2x2" value="yes"> 2x2x2<br>
+      <input type="checkbox" name="3x3x3" id="3x3x3" value="yes"> 3x3x3<br>
+      <input type="checkbox" name="4x4x4" id="4x4x4" value="yes"> 4x4x4<br>
+      <input type="checkbox" name="5x5x5" id="5x5x5" value="yes"> 5x5x5<br>
+      <input type="checkbox" name="Megaminx" id="Megaminx" value="yes"> Megaminx<br>
+      <input type="checkbox" name="None" id="None" value="yes"> None<br>
+      Choose your favorite<br>
+      <input type="radio" name="2x2x2" id="2x2x2" value="yes"> 2x2x2<br>
+      <input type="radio" name="3x3x3" id="3x3x3" value="yes"> 3x3x3<br>
+      <input type="radio" name="4x4x4" id="4x4x4" value="yes"> 4x4x4<br>
+      <input type="radio" name="5x5x5" id="5x5x5" value="yes"> 5x5x5<br>
+      <input type="radio" name="Megaminx" id="Megaminx" value="yes"> Megaminx<br>
+      <input type="radio" name="None" id="None" value="yes"> None<br>
+      <label for="myChoice">How many years have you been interested in Rubik's Cubes?:</label><br>
+      <input type="number" name="myChoice" id="myChoice" min="0" max="100">
+   
+
+
+<br>
+<button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Your answers have been successfully sumbitted!");
+}
+</script>
+    <input type="reset"></p>
+  <img src="Images/Rubiks.jpg" width="200" height="150" alt="Rubik's Cube" id="floatright">
+    <div id="footer"> Copyright &copy; 2020 Tommy Gammer<br>
+    </div>
+  </div>
+</div>
+</body>
+</html>
